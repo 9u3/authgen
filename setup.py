@@ -10,7 +10,7 @@ setup(
   url = 'https://github.com/DemonEclipSe/authgen',
   download_url = 'https://github.com/DemonEclipSe/authgen/tree/master/authgen',
   keywords = ['wrapper', 'api', 'random'],
-  install_requires=['aiohttp', 'string, 'random'],
+  install_requires=['aiohttp', 'string', 'random'],
   classifiers=[
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
