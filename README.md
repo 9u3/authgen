@@ -1,6 +1,10 @@
 # authgen
 A random string gen for Python.
 
+# Install
+
+`pip install git+https://github.com/DemonEclipSe/authgen/`
+
 # Usage.
 
 Modules you'll need: `pip install random` and `pip install string`.
