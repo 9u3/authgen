@@ -7,8 +7,6 @@ A random string gen for Python.
 
 # Usage.
 
-Modules you'll need: `pip install random` and `pip install string`.
-
 For `authg.multiple_simple/medium/strong`, You will need `amount` As it puts it in a table and returns it.
 
 ```python
