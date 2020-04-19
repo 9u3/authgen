@@ -22,9 +22,11 @@ You can change `authg` to anything you want, I just used it for simplicity reaso
 
 # All types for strings.
 
-`authg.random_simple`
-`authg.random_medium`
-`authg.random_strong`
-`authg.multiple_simple`
-`authg.multiple_medium`
-`authg.multiple_strong`
+| Methods       | What they do  |
+| ------------- |:-------------:|
+| `authg.random_simple`      | Simple Generation |
+| `authg.random_medium`      | Medium Generation     |
+| `authg.random_strong` | Strong Generation      |
+| `authg.multiple_simple`| Same as simple but does more |
+| `authg.multiple_medium`| Same as medium but does more |
+| `authg.multiple_strong`| Same as strong but does more |
