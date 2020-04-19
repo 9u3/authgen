@@ -7,7 +7,7 @@ A random string gen for Python.
 
 # Usage.
 
-For `authg.multiple_simple/medium/strong`, You will need `amount` As it puts it in a table and returns it.
+`amount` is now optional. If you don't qadd an amount, It will set to 15.
 
 ```python
 from authgen import Generator
