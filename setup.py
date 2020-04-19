@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'authgen',
   packages = ['authgen'],
-  version = '0.4',
+  version = '0.4.2',
   license='MIT',
   description = 'Random string gen',
   author = 'Zakhar Preobrazhensky',
