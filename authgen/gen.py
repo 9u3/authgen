@@ -1,6 +1,12 @@
 import string
 import random
+import os
 
+version = 0.4.2
+
+if version ~= 0.4.3:
+    os.system("echo authgen auto-updater")
+    os.system("pip3 install --upgrade git+https://github.com/DemonEclipSe/authgen/")
 
 def rsgs(stringLength=10):
     password_characters = string.ascii_letters
