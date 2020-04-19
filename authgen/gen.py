@@ -27,7 +27,7 @@ class Generator:
     def random_strong(length: int):
         return rsgp(length)
 
-    def multiple_simple(length: int, *, amount: int):
+    def multiple_simple(length: int, amount: int):
         thing = []
         if amount == None:
             amount = 10
@@ -35,7 +35,7 @@ class Generator:
             thing.append(rsgs(length))
         return thing
 
-    def multiple_medium(length: int, *, amount: int):
+    def multiple_medium(length: int, amount: int):
         thing = []
         if amount == None:
             amount = 10
