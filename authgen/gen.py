@@ -29,18 +29,24 @@ class Generator:
 
     def multiple_simple(length: int, *, amount: int):
         thing = []
+        if amount == None:
+            amount = 10
         for i in range(amount):
             thing.append(rsgs(length))
         return thing
 
     def multiple_medium(length: int, *, amount: int):
         thing = []
+        if amount == None:
+            amount = 10
         for i in range(amount):
             thing.append(rsgm(length))
         return thing
 
     def multiple_strong(length: int, *, amount: int):
         thing = []
+        if amount == None:
+            amount = 10
         for i in range(amount):
             thing.append(rsgp(length))
         return thing
