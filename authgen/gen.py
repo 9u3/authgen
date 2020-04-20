@@ -4,8 +4,7 @@ import os
 
 version = 0.4.2
 
-if version ~= 0.4.3:
-    os.system("echo authgen auto-updater")
+def upd():
     os.system("pip3 install --upgrade git+https://github.com/DemonEclipSe/authgen/")
 
 def rsgs(stringLength=10):
@@ -49,12 +48,15 @@ class Generator:
             thing.append(rsgm(length))
         return thing
 
-    def multiple_strong(length: int, *, amount: int):
+    def multiple_strong(length: int, amount: int):
         thing = []
         if amount == None:
             amount = 10
         for i in range(amount):
             thing.append(rsgp(length))
         return thing
+    
+    def update():
+        return upd
             
         
