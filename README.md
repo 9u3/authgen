@@ -7,7 +7,7 @@ A random string gen for Python.
 
 # Usage.
 
-`amount` is now optional. If you don't qadd an amount, It will set to 15.
+`amount` is now optional. If you don't add an amount, It will set to 15.
 
 ```python
 from authgen import Generator
