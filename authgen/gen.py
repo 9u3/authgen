@@ -2,10 +2,7 @@ import string
 import random
 import os
 
-version = 0.4.4
-
-def upd():
-    os.system("pip3 install --upgrade git+https://github.com/DemonEclipSe/authgen/")
+# version = 0.4.4
 
 def rsgs(stringLength=10):
     password_characters = string.ascii_letters
@@ -55,8 +52,5 @@ class Generator:
         for i in range(amount):
             thing.append(rsgp(length))
         return thing
-    
-    def update():
-        return upd
             
         
