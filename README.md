@@ -3,11 +3,9 @@ A random string gen for Python.
 
 # Install
 
-`pip install git+https://github.com/DemonEclipSe/authgen/`
+`pip install git+https://github.com/9u3/authgen/`
 
 # Usage.
-
-`amount` is now optional. If you don't add an amount, It will set to 15.
 
 ```python
 from authgen import Generator
