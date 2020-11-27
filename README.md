@@ -8,9 +8,7 @@ A random string gen for Python.
 # Usage.
 
 ```python
-from authgen import Generator
-
-authg = Generator
+from authgen import Generator as authg
 
 print(authg.random_simple(length=8))
 print(authg.multiple_simple(length=8, amount=15))
