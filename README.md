@@ -11,7 +11,7 @@ A random string gen for Python.
 from authgen import Generator as authg
 
 print(authg.random_simple(length=8))
-print(authg.multiple_simple(length=8, amount=15))
+print(authg.multiple_simple(length=8, amount=15)) # Amount variable is optional, If you don't give it an amount it will return with 15.
 ```
 
 You can change `authg` to anything you want, I just used it for simplicity reasons.
