@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'authgen',
   packages = ['authgen'],
-  version = '0.4.5',
+  version = '0.5',
   license='MIT',
   description = 'Random string gen',
-  author = 'Zakhar Preobrazhensky',
+  author = 'Nox Protogen',
   author_email = 'cfym.gamer@gmail.com',
-  url = 'https://github.com/DemonEclipSe/authgen',
-  download_url = 'https://github.com/DemonEclipSe/authgen/tree/master/authgen',
+  url = 'https://github.com/9u3/authgen',
+  download_url = 'https://github.com/9u3/authgen/tree/master/authgen',
   keywords = ['wrapper', 'api', 'random'],
   install_requires=['aiohttp'],
   classifiers=[
@@ -20,6 +20,7 @@ setup(
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7'
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8'
   ],
 )
