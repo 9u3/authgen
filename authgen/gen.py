@@ -29,26 +29,26 @@ class Generator:
     def random_strong(length: int):
         return rsgp(length)
 
-    def multiple_simple(length: int, amount: int):
+    def multiple_simple(length: int, amount=None):
+        if amount is not None then amount = amount else amount = 15
+        amount = int(amount)
         thing = []
-        if amount == None:
-            amount = 10
         for i in range(amount):
             thing.append(rsgs(length))
         return thing
 
-    def multiple_medium(length: int, amount: int):
+    def multiple_medium(length: int, amount=None):
+        if amount is not None then amount = amount else amount = 15
+        amount = int(amount)
         thing = []
-        if amount == None:
-            amount = 10
         for i in range(amount):
             thing.append(rsgm(length))
         return thing
 
-    def multiple_strong(length: int, amount: int):
+    def multiple_strong(length: int, amount=None):
+        if amount is not None then amount = amount else amount = 15
+        amount = int(amount)
         thing = []
-        if amount == None:
-            amount = 10
         for i in range(amount):
             thing.append(rsgp(length))
         return thing
