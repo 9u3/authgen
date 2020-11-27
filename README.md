@@ -5,6 +5,10 @@ A random string gen for Python.
 
 `pip install git+https://github.com/9u3/authgen/`
 
+# Update
+
+`pip install -U git+https://github.com/9u3/authgen/`
+
 # Usage.
 
 ```python
