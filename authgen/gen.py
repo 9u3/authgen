@@ -30,7 +30,8 @@ class Generator:
         return rsgp(length)
 
     def multiple_simple(length: int, amount=None):
-        if amount is not None amount = amount else amount = 15
+        if amount is not None:
+            amount = amount else amount = 15
         amount = int(amount)
         thing = []
         for i in range(amount):
@@ -38,7 +39,8 @@ class Generator:
         return thing
 
     def multiple_medium(length: int, amount=None):
-        if amount is not None amount = amount else amount = 15
+        if amount is not None:
+            amount = amount else amount = 15
         amount = int(amount)
         thing = []
         for i in range(amount):
@@ -46,7 +48,8 @@ class Generator:
         return thing
 
     def multiple_strong(length: int, amount=None):
-        if amount is not None amount = amount else amount = 15
+        if amount is not None:
+            amount = amount else amount = 15
         amount = int(amount)
         thing = []
         for i in range(amount):
