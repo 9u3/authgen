@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'authgen',
   packages = ['authgen'],
-  version = '0.5',
+  version = '0.6',
   license='MIT',
   description = 'Random string gen',
   author = 'Nox Protogen',
